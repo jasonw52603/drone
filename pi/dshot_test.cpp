@@ -1,8 +1,14 @@
 #include "stdint.h"
+#include <stdio.h>
+using namespace std;
 
-uint16_t packet;
+int main() {
+	int testet = 2;
+	printf("this");
 
-packet = 1111111;
-print(packet);
-packet >>= 4;
-print(packet);
+
+	printf("%f", testet);
+
+	return 0;
+}
+
